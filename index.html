@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
 </head>
 
-<body style="font-family: Arial; background-color:#f2f2f2;">
+<body style="font-family: Arial; background-color:#f2f2f2; margin:0;">
 
-<table width="900" align="center" bgcolor="white" cellpadding="0" cellspacing="0" style="margin-top:50px;">
+
+<table width="100%" align="center" bgcolor="white" cellpadding="0" cellspacing="0">
+
 <tr>
 
     <!-- LEFT PANEL -->
     <td width="35%" bgcolor="#18b7c9" align="center" style="color:white; padding:30px;">
 
-        <img src="kripal.jpeg" width="210" height="210" style="border-radius:50%;"><br><br>
+        <img src="kripal.jpeg" width="160" height="160"
+             style="border-radius:50%; object-fit:cover;"><br><br>
 
         <h2>HELLO, I'M<br>KRIPAL</h2>
 
         <p>
-            I am a collage student who enjoys learning programming
-            and love to do creative projects.
+            I am a college student who enjoys learning programming
+            and loves to do creative projects.
         </p>
 
         <br><br>
 
-        <!-- Social Media Logos with Links -->
+        <!-- Social Media Logos -->
         <a href="https://www.facebook.com/kripal2007" target="_blank">
             <img src="fb.png" width="25">
         </a>
@@ -48,27 +52,79 @@
     <!-- RIGHT PANEL -->
     <td width="65%" style="padding:40px;">
 
-        <h1>About Me</h1>
+        <!-- ABOUT ME HEADING -->
+        <h1 align="center">About Me</h1>
 
+        <!-- PARAGRAPH 1 -->
         <p>
-            I am Kripal gantt jk studying in Indian institute of information
-            technology Raichur. 
+            I am <b>Kripal Ganth JK</b>, studying at the
+            <b>Indian Institute of Information Technology Raichur</b>.
             I am interested in web development, programming, and technology.
         </p>
 
+        <!-- PARAGRAPH 2 -->
         <p>
-            Need assistance with web development? Click the button below to
-            get started.
+            If you need assistance with web development, feel free to explore
+            my background and click the button below to get started.
         </p>
 
         <br>
 
-        <!-- Contact Me Button -->
-        <a href="contact.html" target="_blank">
-            <button style="padding:10px 25px; border-radius:20px; border:2px solid #18b7c9; background:white; color:#18b7c9;">
-                CONTACT ME
-            </button>
-        </a>
+        <!-- DETAILS TABLE -->
+        <table width="100%" border="1" cellpadding="10" cellspacing="0"
+               style="border-collapse:collapse; text-align:left;">
+            <tr>
+                <td><b>School</b></td>
+                <td>
+                    <a href="https://www.vvinscbe.ac.in/" target="_blank">
+                        Vidyaa Vikas
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td><b>College</b></td>
+                <td>
+                    <a href="https://iiitr.ac.in/" target="_blank">
+                        Indian Institute of Information Technology Raichur
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Course</b></td>
+                <td>M & N</td>
+            </tr>
+            <tr>
+                <td><b>Programming Languages Known</b></td>
+                <td>C, Python, HTML, CSS, JavaScript</td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <!-- CONTACT ME BUTTON -->
+        <div align="center">
+            <a href="contact.html" target="_blank">
+                <button style="
+                    padding:10px 30px;
+                    border-radius:20px;
+                    border:2px solid #18b7c9;
+                    background:white;
+                    color:#18b7c9;
+                    font-size:15px;">
+                    CONTACT ME
+                </button>
+            </a>
+        </div>
+
+        <br><br>
+
+        <!-- EMBEDDED WEBSITE -->
+        <h2 align="center">My College Website</h2>
+
+        <iframe src="https://iiitr.ac.in/"
+                width="100%" height="300"
+                style="border:1px solid #ccc;">
+        </iframe>
 
     </td>
 
@@ -77,3 +133,4 @@
 
 </body>
 </html>
+
